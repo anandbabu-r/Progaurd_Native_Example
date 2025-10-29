@@ -1,0 +1,68 @@
+# --- Java / general build output ---
+/out/
+/bin/
+/target/
+/build/
+*.class
+*.jar
+*.war
+*.ear
+
+# --- Native/JNI build artifacts ---
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.so
+*.dll
+*.dylib
+*.lib
+*.exp
+*.pdb
+*.exe
+*.out
+
+# --- ProGuard outputs (keep your *.pro configs tracked) ---
+mapping.txt
+mapping-*.txt
+seeds.txt
+usage.txt
+dump.txt
+
+# --- CMake / Make (if used) ---
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+Makefile
+makefile
+*.gch
+compile_commands.json
+
+# --- IDE/editor cruft ---
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
+
+# --- Logs / temp / OS files ---
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.#*
+.DS_Store
+Thumbs.db
+
+# --- Tags / indexes ---
+tags
+*.tag
+
+# --- Core dumps ---
+core
+core.*
+
