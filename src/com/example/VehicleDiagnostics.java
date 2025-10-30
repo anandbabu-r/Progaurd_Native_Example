@@ -7,8 +7,8 @@ public class VehicleDiagnostics {
 
     /** Inner class with multiple sensor types */
     public static class SensorReadings {
-        public int sensor1;
-        public double sensor2;
+        @com.example.JniStruct public int sensor1;
+        @com.example.JniStruct public double sensor2;
 
         @Override
         public String toString() {

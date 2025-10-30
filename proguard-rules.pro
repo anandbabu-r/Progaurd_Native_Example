@@ -16,3 +16,9 @@
     native <methods>;
 }
 
+
+# Keep names of fields annotated with @JniStruct in any class
+-keepclassmembers class ** {
+    @com.example.JniStruct <fields>;
+}
+
